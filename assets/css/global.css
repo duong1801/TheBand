@@ -1,0 +1,51 @@
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.wp-inner {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.text-while {
+    color: #fff!important;
+}
+
+.row {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.of-hidden {
+    overflow: hidden;
+}

@@ -1,0 +1,60 @@
+/* 
+PC: >= 1024px
+Tablet: >= 740px &< 1024px
+Mobile: < 740px
+ */
+
+
+/* Break poin */
+
+
+/* PC */
+
+@media (min-width: 1024px) {}
+
+
+/* Tablet */
+
+@media (min-width:740px) and (max-width:1023px) {}
+
+
+/* mobile */
+
+@media (max-width:740px) {
+    #header {
+        overflow: hidden;
+    }
+    #header #mobile-menu-btn {
+        display: inline-block;
+    }
+    #header .btn-search .icon-search {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:nth-child(1) {
+        display: inline-block;
+    }
+    #nav .sup_nav {
+        position: initial!important;
+        background: #333;
+    }
+    #nav .sup_nav li a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    .form-contact {
+        margin-top: 32px;
+    }
+    .s-col-full,
+    .s-full-width {
+        width: 100%!important;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+}
